@@ -87,17 +87,17 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
         const { connection, lastDisconnect } = s
         if (connection == "open") {
             await delay(1000 * 10)
-            await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `\n\n🦋 │𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃│𝐕➂ 🦋\n\n` });
+            await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `\n\n🦋 │SANIJA│𝐌𝐃│𝐕1 🦋\n\n` });
             let sessionXeon = fs.readFileSync('./sessions/creds.json');
             await delay(1000 * 2) 
              const xeonses = await  XeonBotInc.sendMessage(XeonBotInc.user.id, { document: sessionXeon, mimetype: `application/json`, fileName: `creds.json` })
              await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `🎯 *ᴅᴏ ɴᴏᴛ ꜱʜᴀʀᴇ* 🎯\n
 ┌──────────────────
-│  𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃   │
+│  SANIJA│𝐌𝐃   │
 ├──────────────────
-│Thanks for using X-PairCode
+│Thanks for using SANIJA-MD-PAIR-CODE
 ├──────────────────        
-│©2023-2024 Pᴀɴᴅᴀ-Mᴅ
+│©2025 Sanija-MD
 └──────────────────\n\n ` }, {quoted: xeonses});
               await delay(1000 * 2) 
               process.exit(0)
